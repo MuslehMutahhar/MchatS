@@ -10,13 +10,16 @@ const Navbar = () => {
 
     return(
         <div className="Navbar">
-            <span className="logo">mCHATs</span>
+            <span className="logo">MchatS</span>
+            
             <div className="user">
+                <br></br>
                 <img src={currentUser.photoURL} alt="" />
                 <span>{currentUser.displayName}</span>
-                <button onClick={()=>signOut(auth)}>logout</button>
-
+                
             </div>
+            
+            <button onClick={()=>signOut(auth)}>logout</button>
         </div>
 
 

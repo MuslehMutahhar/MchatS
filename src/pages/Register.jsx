@@ -109,7 +109,7 @@ const Register = () =>
                 <form onSubmit={handleSubmit}>
                     <input type="text" placeholder="username"/>
                     <input type="email" placeholder="email"/>
-                    <input type="password" placeholder="Password"/>
+                    <input type="password" placeholder="Create Password"/>
                     
                     <input style={{display:"none"}} type="file" id="file"/>
                     <label htmlFor="file">

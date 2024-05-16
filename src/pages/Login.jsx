@@ -37,7 +37,7 @@ const Login = () => {
     return(
         <div className="formContainer">
             <div className="formWrapper">
-                <span className="logo">mCHATs</span> <br></br>
+                <span className="logo">MchatS</span> <br></br>
                 <span className="title">Login</span>
                 {err && <p style={{ color: "red" }}>Invalid email or password!</p>}
                 <form onSubmit={handleSubmit}>
